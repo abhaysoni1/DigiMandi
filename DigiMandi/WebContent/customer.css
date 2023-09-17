@@ -1,0 +1,123 @@
+.sidenav {
+  height:  100%; /* Full-height: remove this if you want "auto" height */
+  width: 20%; /* Set the width of the sidebar */
+  top: 6%;
+  z-index: 1; /* Stay on top */
+  bottom: 0;
+  left: 0;
+  background-color: black; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  opacity: 80%;
+  position: fixed;
+  
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: flex;
+}
+
+
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+
+#content{
+  height: 100%;
+}
+.navbar{
+  background-color: #FFC312;
+  color: black;
+}
+.nav-link{
+  color: black;
+}
+.navbar-brand{
+  color:black;
+}
+.links{
+  color: white;
+  }
+  
+  .links a{
+  margin-left: 4px;
+  }
+  @import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url('https://image.freepik.com/free-photo/indian-farmer-using-mobile-phone-agriculture-field_75648-1312.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: auto;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card_img{
+width: 100%;
+height: 150px;
+
+}
+#con{
+  width: 70%;
+  height: 70%;
+  position: relative;
+  top: 20%;
+  left:10%;
+}
+#Yorder{
+  width: 70%;
+  height: 70%;
+  position: relative;
+  top: 20%;
+  left:10%;
+}
+#abtn{
+  color: black;
+  background-color: #FFC312;
+  width: 100px;
+  }
+  
+#abtn:hover{
+color: black;
+background-color: white;
+}
+#log-out{
+  position: absolute;
+  right: 0;
+  top: 10%;
+}
+#addproduct{
+  position: absolute;
+  right: 4%;
+  top: 17%;
+  color: black;
+  background-color: #FFC312;
+  width: auto;
+}
+#addproduct:hover{
+  color: black;
+  background-color: white;
+  }
+
+#pselect{
+    margin-top: 2%;
+    width: 20%;
+    position: absolute;
+}
+
+  
